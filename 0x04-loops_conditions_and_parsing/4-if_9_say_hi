@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#This script displays 2 different things for several times.
+
+content1="Best School"
+content2="Hi"
+
+counter=1
+
+while [ $counter -le 10 ]
+do
+	if [ $counter -eq 9 ]
+then
+        echo "$content1"
+	echo "$content2"
+
+else 
+	echo "$content1"
+fi
+((counter++))
+
+done
+
