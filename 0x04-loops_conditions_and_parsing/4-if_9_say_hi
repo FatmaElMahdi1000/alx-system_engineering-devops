@@ -13,7 +13,7 @@ do
 		echo $content2
 	else
 
-	echo $content1
+	echo "$content1"
 	fi 
 	((counter++))
 done
