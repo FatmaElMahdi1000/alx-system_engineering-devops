@@ -13,12 +13,16 @@ do
 	case $counter in
 
 		5) echo "$exp1"
+		echo "5"
 			;;
 
 		10) echo "$exp2"
+		echo "10"
+		
 			;;
 		18)
 			echo "$exp3"
+			echo "18"
 			;;
 
 		*)
