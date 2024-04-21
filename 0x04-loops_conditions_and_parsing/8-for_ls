@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#displaying The content of the current directory
+
+cd 0x04-loops_conditions_and_parsing
+for file in *;
+do
+	echo "$(echo "$file" | cut -d '-' -f 2-)"
+done
