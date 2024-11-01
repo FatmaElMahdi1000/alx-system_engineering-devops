@@ -2,4 +2,4 @@
 #a list of currently running processes
 # Show process hierarchy
 
-ps u
+ps -a -x -u -f
