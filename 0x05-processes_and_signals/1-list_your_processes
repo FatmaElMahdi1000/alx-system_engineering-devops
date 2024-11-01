@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 #a list of currently running processes
+# Show process hierarchy
 
 ps u
